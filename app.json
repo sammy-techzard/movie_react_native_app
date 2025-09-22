@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "movie_react_native_app",
+    "name": "SammyMovie",
     "slug": "movie_react_native_app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",
     "scheme": "moviereactnativeapp",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true
     },
@@ -17,7 +17,8 @@
         "foregroundImage": "./assets/images/logo.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.sammy40.movie_react_native_app"
     },
     "web": {
       "output": "static",
@@ -42,6 +43,18 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "bcd339de-7779-4aeb-a2f1-b1e8efacac18"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/bcd339de-7779-4aeb-a2f1-b1e8efacac18"
     }
   }
 }
